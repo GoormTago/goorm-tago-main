@@ -40,3 +40,4 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
+      nodePort: 30080 # 외부 접근 테스트를 위한 노드 포트
